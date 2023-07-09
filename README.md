@@ -40,6 +40,10 @@ Amazon Rekognition is based on the same proven, highly scalable, deep learning t
 ## Open search
 Amazon OpenSearch is a search and analytics engine that I have used in our Pixtract Ib application to provide advanced search functionality for our users. With OpenSearch, I are able to perform complex search queries on the metadata associated with each image uploaded to our application. 
 # Project setup
+
+**Note** : All the API endpoint URLs have been removed as they point to my AWS specific instances. This project can be used as a template to create our own app. Or, you can replicate these services on your AWS account, make them accessible via the API Gateway, and replace those endpoints here. 
+
+Please look at the report for details of how these services were implemented. 
 ```
 npm install
 ```

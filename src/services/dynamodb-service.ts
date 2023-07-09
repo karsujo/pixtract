@@ -5,8 +5,8 @@ import axios from 'axios';
 import PixMedia from '@/models/pixmedia';
 
 export default new class DynamoDbService {
-    private __GET_URL = "https://ljrsuwn2b4.execute-api.us-east-2.amazonaws.com/dev"; 
-    private __INSERT_URL = "https://vsjk21yhii.execute-api.us-east-2.amazonaws.com/dev"; 
+    private __GET_URL = "ENTER _DYNAMO_URL_HERE"; 
+    private __INSERT_URL = "ENTER _DYNAMO_URL_HERE"; 
 
     public async getAllRowsMediaMaster(): Promise<PixMedia[]> {
         console.log("Getting all rows from DynamoDB: T_MEDIA_MASTER ... "); 

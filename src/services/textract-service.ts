@@ -5,7 +5,7 @@ import axios from 'axios';
 
 //KG & KS
 export default new class TextractService {
-    private __URL = "https://gmcotx7b8j.execute-api.us-east-2.amazonaws.com/dev"; 
+    private __URL = "ENTER_TEXTRACT_URL_HERE"; 
     private _MIN_CONF = 96; 
     private _BUCKET = "pixtract"
     private _MAX_LABELS = 50

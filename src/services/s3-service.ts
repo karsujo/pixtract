@@ -9,11 +9,11 @@ window.Buffer = window.Buffer || Buffer;
 
 //KS
 export default new class SimpleStorageService {
-    private _BASE_URL = "https://21pyee8jrg.execute-api.us-east-2.amazonaws.com/dev"; 
+    private _BASE_URL = "ENTER_S3_URL_HERE"; 
     private __BUCKET = "pixtract"
     private __URL = this._BASE_URL+"/"+this.__BUCKET; 
     private _destinationPath = '../../public';
-    private _UploadUrl = "https://0p3zt24f1b.execute-api.us-east-2.amazonaws.com/dev"
+    private _UploadUrl = "ENTER_S3_URL_HERE"
   
     public async uploadMedia(media:PixMedia, base64ImgStr:string) 
     {

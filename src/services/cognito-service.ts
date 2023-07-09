@@ -4,7 +4,7 @@ import axios from 'axios';
 
 //KG
 export default new class CognitoService {
-    private __URL = "https://8a3qzhu797.execute-api.us-east-2.amazonaws.com/prod/authenticate"; 
+    private __URL = "ENTER_COGNITO_URL_HERE"; 
 
     public async validateCognito(username: string, password:string): Promise<string> {
         console.log(`Authenticating User : ${username} via Cognito ... `);

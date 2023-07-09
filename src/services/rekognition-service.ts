@@ -5,7 +5,7 @@ import axios from 'axios';
 
 //KG
 export default new class RekognitionService {
-    private __URL = "https://n02ouewhm7.execute-api.us-east-2.amazonaws.com/dev"; 
+    private __URL = "ENTER_REKOGNITION_URL_HERE"; 
     private _MIN_CONF = 96; 
     private _BUCKET = "pixtract"
     private _MAX_LABELS = 50

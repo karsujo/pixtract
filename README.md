@@ -61,4 +61,4 @@ The tests folder has the postman test collecton for all the API endpoints.
 
 This was developed as a part of the CS542 Cloud Computing Course. A full, detailed report of the project can be found here. [Report.pdf](Report.pdf)
 
-All of the URLs point to AWS services under my specific cloud so I have 
+All of the URLs point to AWS services under my specific cloud so I have. 
